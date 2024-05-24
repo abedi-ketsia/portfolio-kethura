@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #000;
+    color: #fff;
+
+}
+span{
+    color: #58aee7;
+
+}
+h3{
+    padding-right: 120px;
+    color: #58aee7;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+}
+ul li a:hover{
+    color: #58aee7;
+    font-size: 18px;
+    border-bottom: 2px solid #58aee7;
+}
+.navi{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+
+
+}
+ul li{
+    display: inline-block;
+    padding-right: 50px;
+}
+ul{
+    margin-right: 105px;
+}
+.b-nav{
+    display: flex;
+    justify-content: space-between;
+}
+main{
+    
+    background-color: #272727;
+}
+h1{
+    text-align: center;
+    padding-top: 60px;
+}
+h4{
+    margin-top: 20px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    background-color: #58aee7;
+    width: 70%;
+    margin-left: 15%;
+    border-radius: 15px;
+    color: #000;
+}
+.inp{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+input{
+    padding: 4px;
+    margin-bottom: 10px;
+}
+textarea{
+    margin-bottom: 20px;
+}
+.env{
+    width: 120px;
+    text-align: center;
+    background-color: #58aee7;
+    color: #000;
+}
+.env:hover{
+    background-color: #fff;
+    color: #58aee7;
+    font-weight: bold;
+    transition: .4s;
+}
+.add{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
